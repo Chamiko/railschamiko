@@ -9,10 +9,11 @@ gem 'rails', '~> 5.2.0'
 group :development do
   gem 'sqlite3'
 end
-group :production do
-  gem 'pg'
-end
+#group :production do
+#  gem 'pg'
+#end
 gem 'carrierwave'
+gem "mini_magick"
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -63,6 +64,10 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
+
+gem "rb-readline"
+gem 'devise'
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
