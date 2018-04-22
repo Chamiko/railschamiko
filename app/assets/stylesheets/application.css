@@ -17,3 +17,21 @@ body { padding-top: 60px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
+.navbar {
+  min-height: 38px;
+  background-color: #c9ff63 !important;
+  background-image: none !important;
+}
+
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+  color: #003472;
+  background-color: #faff72;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #faff72;
+  padding: 10px 0;
+}

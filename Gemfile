@@ -67,6 +67,7 @@ end
 
 gem "rb-readline"
 gem 'devise'
+gem 'gravtastic'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
